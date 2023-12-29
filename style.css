@@ -74,8 +74,6 @@ ul li a:hover {
 /* social links */
 
 #social-links {
-  border: 1px solid white;
-
   display: flex;
   justify-content: center;
 
@@ -97,4 +95,10 @@ ul li a:hover {
 
 #social-links a:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
 }
