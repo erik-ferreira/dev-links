@@ -16,6 +16,7 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0;
+  padding: 0 24px;
 }
 
 #profile {
@@ -41,6 +42,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
 
 ul li a {
@@ -66,4 +69,32 @@ ul li a {
 ul li a:hover {
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid white;
+}
+
+/* social links */
+
+#social-links {
+  border: 1px solid white;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 24px 0;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+  border-radius: 50%;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
